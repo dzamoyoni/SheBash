@@ -1,0 +1,9 @@
+#!/bin/bash
+# using the return command in a fcuntion 
+function dbl {
+	read -p "Enter a value: " value
+	echo "doublinig the value"
+	return $[ $value * 2 ]
+}
+dbl
+echo "The new value is $?"

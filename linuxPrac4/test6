@@ -1,0 +1,2 @@
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'badtest': No such file or directory

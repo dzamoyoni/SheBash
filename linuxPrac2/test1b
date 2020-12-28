@@ -1,0 +1,9 @@
+#!/bin/bash
+# testing the for loop after the looping
+for test in Nairobi Nanyuki Kisumu Eldoret Nyahururu
+do 
+echo "The next state is $test"
+done
+echo "The last state we visited was $test"
+test=Conecticut
+echo "Wait, now we're visiting $test"
